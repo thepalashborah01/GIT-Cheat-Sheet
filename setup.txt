@@ -1,0 +1,14 @@
+SETUP
+
+//set a name that is identifiable for credit when review verison history
+git config --global user.name "[firstname lastname]"
+
+//set an email address that will be associated with each history marker
+git config --global user.email "[email]"
+
+//set automatic command line colouring for Git for easy reviewing
+git config --global color.ui auto
+
+
+
+
