@@ -1,0 +1,13 @@
+SHARE AND UPDATE
+
+//retrieving updates from another repository and updating local repos
+git remote add <alias><url>
+
+//fetch down all the branches from that Git remote
+git fetch <alias>
+
+//merge a remote branch into your current branch to bring it up to date
+git merge <alias>/<branch>
+
+//transmit local branch commits to the remote repository branch
+git push <alias><branch>

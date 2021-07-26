@@ -1,0 +1,19 @@
+DELETE COMMITS HISTORY FROM GIT/GITHUB
+
+//checkout a temporary branch to hold our commit
+git checkout --orphan TEMP_BRANCH
+
+//add all the files to the temporary branch
+git add .
+
+//commit the changes
+git commit -m "Initial commit"
+
+//delete the old branch (most probably old_branch would be a master branch)
+git branch -D <old_branch_name>
+
+//rename the temporary branch (TEMP_BRANCH) to master
+git branch -m master
+
+//finally force update to your repository
+git push -f origin master
