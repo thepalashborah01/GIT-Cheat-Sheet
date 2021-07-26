@@ -1,0 +1,28 @@
+MOST COMMONLY USED GIT COMMANDS
+
+//create new repository in current directory
+git init
+
+//add a file as it's ready for your next commit(staging area)
+git add <file>
+
+//add all files as they are ready for for your next commit(staging area)
+git add .
+
+//show modified files in working directory, staged for your next commit
+git status
+
+//commit your staged content as a new commit snapshot
+git commit -m "[descriptive message]"
+
+//create a new connection to a remote repository by giving it's name and url
+git remote add <remote_name> <remote_url>
+
+//push your local branch to specified remote
+git push <remote_name> <branch_name>
+
+//download new changes from the branch_name on the remote
+git pull <remote_name> <branch_name>
+
+//display the entire commit history using the default format
+git log
