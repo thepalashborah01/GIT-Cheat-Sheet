@@ -1,0 +1,7 @@
+CREATING REPOSITORIES
+
+//create new repository in current directory
+git init
+
+//clone a remotes repository
+git clone <url>

@@ -1,0 +1,11 @@
+TRACKING PATH CHANGES
+
+//delete the file from project and stage the removal for commit
+git rm <file>
+
+//change an existing file path and stage the move
+git mv <existingpath><newpath>
+
+//show all commit logs with indications of any paths that moved
+git log --stat -M
+
