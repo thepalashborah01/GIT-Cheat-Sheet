@@ -1,0 +1,16 @@
+BRANCH AND MERGE
+
+//create a new branch at the current commit
+git branch <branch_name>
+
+//list your all branches [a '*' will appear next to the currently active branch]
+git branch
+
+//switch to another branch and check it out into your working directory
+git checkout
+
+//create and check out a new branch named [branch_name]
+git checkout -b <branch_name>
+
+//merge the specified branch's history into the current one
+git merge <branch>

@@ -1,0 +1,28 @@
+INSPECT AND COMPARE
+
+//display the entire commit history using the default format
+git log
+
+//limit number of comits by <limit> [eg. "git log -5" will limit to 5 commits]
+git log -<limit>
+
+//only display commits that have the specified file
+git log --<file_name>
+
+//display each commit to a single line
+git log --oneline
+
+//show the commits that changed file, even after renames
+git log --follow<file>
+
+//show the commits on branchA that are not on branchB
+git log branchB..branchA
+
+//show the diff of what is in branchA that is not is branchB
+git diff branchB..branchA
+
+//show difference between working directory and last commit
+git diff HEAD
+
+//show differences between staged changes and last commit
+git diff --cached

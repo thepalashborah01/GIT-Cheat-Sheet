@@ -1,0 +1,22 @@
+STAGING AND SNAPSHOT
+
+//show modified files in working directory, staged for your next commit
+git status
+
+//add a file as it's ready for your next commit(staging)
+git add <file>
+
+//add all files as they are ready for your next commit(staging)
+git add .
+
+//unstage a file while retaining the changes in working directory
+git reset <file>
+
+//diff of what is changed but not staged
+git diff
+
+//diff of what is staged but not yet committed
+git diff --staged
+
+//commit your staged content as a new commit snapshot
+git commit -m "[descriptive message]"
